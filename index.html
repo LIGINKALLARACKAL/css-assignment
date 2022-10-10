@@ -8,54 +8,57 @@
     <link href="./css/style.css" rel="stylesheet">
 </head>
 <body>
-  <header class="part1">
-     <h4>Header Logo 
-      <a class="link" href="/week2/assignment 2/index.html">Homepage</a>
-      <a class="link" href="/week2/assignment 2/signup.html">signup page</a>
-      <a class="link" href="">Images</a> </h4>
-      <div class="cont1">
-        <div class="item1">
-         <h3 class="leisure">Leisure Activities</h3>
-          <p class="leisure2">This website is just focusing on leisure activities like movies, games, etc. please signup the page using the button below.</p><br>
-          <form action="signup.html">
-             <button class="signup">Sign up</button>
-          </form>
-        </div>
-        <div class="item2">
-          <img class="image" src="./images/movie.jpg">
-        </div>
-     </div> 
-  </header> 
-    <section class="flex just1 bottom-margin">
+  <header>
+    <nav class="flex">
+     <h3>Header Logo </h3>
+      <li><a href="/week2/assignment 2/index.html">Homepage</a></li>
+      <li><a href="/week2/assignment 2/signup.html">signup page</a></li>
+      <li><a href="">Images</a></li> 
+    </nav>
+  </header>
+  <section id="hero">
+    <div class="flex justfy2 cont1">
+      <div class="item1">
+          <h2 id="leisure"><strong>Leisure Activities</strong></h2>
+          <p >This website is just focusing on leisure activities like movies, games, etc. please signup the page using the button below.</p>
+          <form class="form" action="signup.html"> <button class="signup">Sign Up</button></form>
+      </div>
+      <img id="image"  src="./images/movie.jpg">
+    </div>
+  </section>
+  <section class="flex just1 bottom-margin">
       <div>
-          <h2 id="header" class="flex just1"><strong>My Favorite movies </strong></h2>
+          <h2 id="header1" class="flex just1"><strong>My Favorite movies </strong></h2>
           <div class="flex just1">
               <figure>
                   <img class="box" src="./images/Darkknight1.jpg">
-                  <figcaption>This is some subtext under an illustration or image.</figcaption>
+                  <figcaption>The Dark Knight is a 2008 superhero film directed by Christopher Nolan.</figcaption>
               </figure>
               <figure>
                   <img class="box" src="./images/titanic1.jpg"> 
-                  <figcaption>This is some subtext under an illustration or image.</figcaption>
+                  <figcaption>Titanic is a 1997 American epic romance and disaster film.</figcaption>
               </figure>
               <figure>
                   <img class="box" src="./images/fastfurious1.jpg">
-                  <figcaption>This is some subtext under an illustration or image.</figcaption>
+                  <figcaption>Fast & Furious is a 2009 action film directed by Justin Lin and written by Chris Morgan</figcaption>
               </figure>
               <figure>
                   <img class="box" src="./images/Spider-Man.jpg">
-                  <figcaption>This is some subtext under an illustration or image.</figcaption>
+                  <figcaption>Peter Parker's life changes when he is bitten by a genetically altered spider and gains superpowers.</figcaption>
               </figure>
           </div>
       </div>
   </section>
-  <div class="cont3">
-        <div class="quotes"><p > "The purpose of our lives is to be happy." <b class="thor">— Dalai Lama </b></p></div>
-  </div>
-  <div class="cont4">
-    <p class="cal"><b> Call to action! It's time!</b><br> Signup for our website by clicking that button right over here.</p>  
-      <form class="form" action="signup.html"> <button class="signup">Sign Up</button></form>
-  </div>
+      <div class="flex justfy2 cont3">
+            <p class="quotes">"The purpose of our lives is to be happy."</p> <h2 class="thor">— Dalai Lama </h2>
+      </div>
+  <section class="flex justfy2 cont4">
+      <div class="action" >
+        <h3 class="cal">Call to action! It's time!</h3>
+        <p class="flex leisure2"> Signup for our website by clicking the button right over here. </p> 
+      </div>
+      <form class="flex form1" action="signup.html"> <button class="signup">Sign Up</button></form> 
+  </section>
   <footer class="cont5">
       <p>Copyright ©</p>
   </footer>
